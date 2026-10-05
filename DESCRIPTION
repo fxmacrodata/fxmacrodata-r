@@ -1,0 +1,22 @@
+Package: fxmacrodata
+Title: Client for the 'FXMacroData' API
+Version: 0.1.0
+Authors@R: person("FXMacroData", email = "info@fxmacrodata.com", role = c("aut", "cre", "cph"))
+Description: Retrieve macroeconomic announcements with release timestamps,
+    release calendars, FX reference rates, rate differentials, yield curves,
+    COT positioning and commodity prices from the 'FXMacroData' API
+    <https://fxmacrodata.com>. Series are returned as data frames. USD
+    endpoints work without an API key.
+License: MIT + file LICENSE
+URL: https://github.com/fxmacrodata/fxmacrodata-r, https://fxmacrodata.com/documentation/reference
+BugReports: https://github.com/fxmacrodata/fxmacrodata-r/issues
+Depends: R (>= 4.1)
+Imports:
+    httr2 (>= 1.0.0),
+    jsonlite
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0
